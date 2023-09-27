@@ -17,7 +17,7 @@ pipeline {
         //             junit 'test-reports/results.xml'
         //         }
         //     }
-        // }
+         }
         stage('Confirm Deploy') {
            steps {
                input(message: 'Okay to deploy to staging?', ok: 'Yes')
